@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container{
+    position: relative;
+    width: 400px;
+    height: 555px;
+    background:  rgba(0, 255, 255, 0.345);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+.weather-box {
+    text-align: center;
+    margin: 40px 0;
+
+}
+
+
+
+.weather-box .temperature {
+    position: relative;
+    font-size: 64px;
+    line-height:1;
+    font-weight: 700;
+    margin: 20px 0 6px -30px;
+}
+
+
+
+.weather-box .temperature span{
+    position: absolute;
+    font-size: 24px;
+    margin-left: 4px;
+
+}
